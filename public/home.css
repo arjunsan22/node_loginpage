@@ -1,0 +1,36 @@
+body{
+    margin:0%;
+    background-color: rgb(210, 207, 207);
+    
+        font-family: "Roboto", sans-serif;
+      
+        font-style: normal;
+      
+       background-image: url(picofhome.jpg);
+       background-size: cover;
+       background-repeat: no-repeat;
+}
+.navbar ul{
+    margin: 0%;
+height: 10%;
+    list-style-type: none;
+background-color:rgb(255, 255, 255);
+
+}
+li{
+
+    padding: 20px;
+    display:inline-block ;
+}
+ li a{
+    font-weight: 322;
+    font-size: 13.8;
+    text-decoration: none;
+}
+a{
+    color: rgb(0, 0, 0);
+}
+.link1{
+
+    margin-left: 7%;
+}

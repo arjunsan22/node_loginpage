@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ 
+        font-family: "Righteous", sans-serif;
+      font-weight: 400;
+        font-style: normal;
+  
+      
+}
+
+body {
+background-image: url(pic2login.jpg);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat:no-repeat ;
+    background-size: cover;
+}
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     height: 100vh;
+    width: 100%;
+        padding: 20px;
+}
+.login-box {
+         position: relative;
+    width: 400px;
+       padding: 40px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    transition: all 0.3s ease;
+}
+.login-box h2 {
+    margin-bottom: 20px;
+    color: #fff;
+    font-size: 24px;
+    letter-spacing: 1px;
+}
+
+.input-box {
+    position: relative;
+    margin-bottom: 30px;
+    width: 100%;
+}
+
+.input-box input {
+    width: 100%;
+    padding: 10px 20px;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid #fff;
+    outline: none;
+    color: #fff;
+    font-size: 18px;
+}
+
+.input-box span {
+    position: absolute;
+    left: 0;
+    padding: 10px 0;
+    pointer-events: none;
+    color: #fff;
+    transition: 0.5s;
+}
+   .input-box input:focus ~ span,
+   .input-box input:valid ~ span {
+    transform: translateY(-18px);
+    font-size: 12px;
+    color: #71b7e6;
+}
+button {
+    width: 100%;
+    background: #38aa47;
+    border: none;
+    padding: 10px 0;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #295020;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+    .login-box {
+        width: 100%;
+        max-width: 300px;
+        padding: 30px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    button {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    .login-box {
+        width: 100%;
+        max-width: 280px;
+        padding: 20px;
+    }
+
+    .input-box input {
+        font-size: 16px;
+    }
+
+    h2 {
+        font-size: 18px;
+    }
+
+    button {
+        font-size: 14px;
+    }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "nodemon",
+  "version": "1.0.0",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon script.js"
+  },
+  "author": "arjun",
+  "license": "ISC",
+  "dependencies": {
+    "cli-color": "^2.0.4",
+    "express": "^4.21.0",
+    "express-session": "^1.18.1",
+    "hbs": "^4.2.0",
+    "nocache": "^4.0.0",
+    "nodemon": "file:",
+    "upper-case": "^2.0.2"
+  },
+  "description": ""
+}
